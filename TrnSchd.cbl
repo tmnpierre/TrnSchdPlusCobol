@@ -122,7 +122,7 @@
            END-PERFORM
 
       *    Write total number of trains processed
-           MOVE "Total number of trains processed" TO OUTPUT-RECORD
+           MOVE "Total Number of trains processed" TO OUTPUT-RECORD
            STRING WS-TOTAL-TRAINS DELIMITED BY SIZE INTO OUTPUT-RECORD
            WRITE OUTPUT-RECORD
            
